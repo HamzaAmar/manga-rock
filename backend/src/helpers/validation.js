@@ -111,7 +111,7 @@ export const mangaValidation = body => {
   });
   return Schema.validate(body);
 };
-export const episodeValidation = body => {
+export const chapterValidation = body => {
   const Schema = Joi.object().keys({
     title: Joi.string()
       .trim()
